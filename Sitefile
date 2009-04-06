@@ -12,7 +12,8 @@ SITE.locale         = 'zh-TW'
 SITE.blog_dir       = 'writings'
 SITE.create_mode    = 'directory'
 SITE.editor         = 'vim'
-SITE.exclude        = ["tmp$", "bak$", "~$", "CVS", "\\.svn", "\\.git", "\\.DS_Store"]
+SITE.exclude       += %w(\.git)
+SITE.exclude       += %w(\.DS_Store)
 # This value can be overridden on a case by case basis when the 'link_to_page' method is called.
 SITE.find_by        = 'slogan'
 SITE.uv.theme       = 'twilight'
