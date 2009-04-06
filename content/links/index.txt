@@ -1,0 +1,14 @@
+---
+title:      連結
+slogan:     Links
+created_at: 2009-04-07 02:20:53.402221 +08:00
+filter:
+  - erb
+  - maruku
+---
+
+# <%= h(@page.title) %>
+
+<script type="text/javascript" src="http://feeds.delicious.com/v2/js/hlb?title=Bookmarks&icon=m&count=20&sort=date&tags&extended"></script>
+<script type="text/javascript" src="http://feeds.delicious.com/v2/js/tags/hlb?title=Tags&icon&count=100&sort=alpha&flow=cloud&color=73adff-3274d0&size=10-36"></script>
+<script type="text/javascript" src="http://feeds.delicious.com/v2/js/networkbadge/hlb?showadd&icon=m&name&itemcount&nwcount&fancount"></script>

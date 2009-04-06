@@ -1,0 +1,17 @@
+---
+title:      關於我
+slogan:     About
+created_at: 2009-04-07 02:17:16.679923 +08:00
+filter:
+  - erb
+  - maruku
+---
+
+# <%= h(@page.title) %>
+
+設計師、公司負責人、孩子的爹。
+
+<div id="father-and-son">
+    <img src="/images/hlb.png" id="father">
+    <img src="/images/mrding.png" id="son">
+</div>
