@@ -9,6 +9,7 @@ SITE.author         = 'hlb'
 SITE.locale         = 'zh-TW'
 
 # settings
+SITE.base           = "http://iamhlb.com"
 SITE.blog_dir       = 'writings'
 SITE.create_mode    = 'directory'
 SITE.editor         = 'vim'
