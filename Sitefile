@@ -23,3 +23,5 @@ SITE.uv.line_numbers= true
 SITE.user           = 'hlb'
 SITE.host           = 'iamhlb.com'
 SITE.remote_dir     = '/Users/hlb/site/iamhlb.com/'
+SITE.rsync_args     = %w(-av --exclude=.DS_Store --exclude=.cairn)
+
