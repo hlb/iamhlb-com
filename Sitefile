@@ -4,4 +4,25 @@ task :default => :build
 desc 'deploy the site to the webserver'
 task :deploy => [:build, 'deploy:rsync']
 
-# EOF
+SITE.name           = "iamhlb, the online identity of hlb"
+SITE.author         = 'hlb'
+SITE.locale         = 'zh-TW'
+
+# settings
+SITE.blog_dir       = 'writings'
+SITE.create_mode    = 'directory'
+SITE.editor         = 'vim'
+SITE.exclude        = ["tmp$", "bak$", "~$", "CVS", "\\.svn", "\\.git", "\\.DS_Store"]
+# This value can be overridden on a case by case basis when the 'link_to_page' method is called.
+SITE.find_by        = 'slogan'
+SITE.page_defaults  = {
+    'layout' => 'default',
+    'filter' => ['erb','maruku']
+}
+SITE.uv.theme       = 'twilight'
+SITE.uv.line_numbers= true
+
+# rsync
+SITE.user           = 'hlb'
+SITE.host           = 'iamhlb.com'
+SITE.remote_dir     = '/Users/hlb/site/iamhlb.com/'
