@@ -67,7 +67,7 @@ namespace :blog do
 
     if test(?f, tmpl) and not test(?f, File.join(Webby.site.content_dir, fn))
       Webby::Builder.create(fn, :from => tmpl,
-          :locals => {:title => month, :directory => dir})
+          :locals => {:title => now.strftime('%Y/%m'), :directory => dir})
     end
   end
 
