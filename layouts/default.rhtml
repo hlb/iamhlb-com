@@ -2,60 +2,42 @@
 extension: html
 filter:    erb
 ---
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<!doctype html>
+<html>
 <head>
-   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-   <title><%= @page.title %></title>
-   <meta name="author" content="<%= @page.author %>" />
-
-   <!--- Blueprint CSS Framework -->
-   <link rel="stylesheet" href="/css/blueprint/screen.css" type="text/css" media="screen, projection">
-   <link rel="stylesheet" href="/css/blueprint/print.css" type="text/css" media="print">
-   <!--[if IE]>
-      <link rel="stylesheet" href="/css/blueprint/ie.css" type="text/css" media="screen, projection">
-   <![endif]-->
-
-   <!-- CodeRay syntax highlighting CSS -->
-   <link rel="stylesheet" href="/css/coderay.css" type="text/css" />
-
-   <!-- Homepage CSS -->
-   <link rel="stylesheet" href="/css/site.css" type="text/css" media="screen, projection" />
+   <meta http-equiv="content-type" content="text/html; charset=utf-8">
+   <title><%= h(@page.title) %> - <%= SITE.name %></title>
+   <meta name="author" content="<%= SITE.author %>">
+   <!--[if gte IE 7]><!-->
+   <link rel="stylesheet" href="/css/reset-fonts-base.css" type="text/css" media="screen, projection">
+   <link rel="stylesheet" href="/css/uv/twilight.css" type="text/css" media="screen, projection">
+   <link rel="stylesheet" href="/css/site.css" type="text/css" media="screen, projection">
+   <!--<![endif]-->
+   <link rel="alternate" type="application/atom+xml" href="/atom.xml">
+   <%= @page.content_for_header -%>
 </head>
 <body>
-
-<div class="container">
-
-   <div class="column span-20 prepend-2 append-2 first last" id="header">
-     <p class="title">A New Website</p>
-     <hr>
-   </div>
-
-   <div class="column span-15 prepend-2 first">
-      <%= @content %>
-   </div>
-
-   <div class="column span-5 append-2 last">
-      <h4>Sidebar</h4>
-      <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras ornare mattis nunc. Mauris venenatis, pede sed aliquet vehicula, lectus tellus pulvinar neque, non cursus sem nisi vel augue. </p>
-
-      <div class="box">
-         <p class="last">Mauris a lectus. Aliquam erat volutpat. Phasellus ultrices mi a sapien. Nunc rutrum egestas lorem. Duis ac sem sagittis elit tincidunt gravida.</p>
-      </div>
-
-      <p class="quiet">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras ornare mattis nunc. Mauris venenatis, pede sed aliquet vehicula, lectus tellus pulvinar neque, non cursus sem nisi vel augue.</p>
-
-      <h5>Incremental leading</h5>
-      <p class="incr">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras ornare mattis nunc. Mauris venenatis, pede sed aliquet vehicula, lectus tellus pulvinar neque, non cursus sem nisi vel augue. sed aliquet vehicula, lectus tellus.</p>
-   </div>
-
-   <div class="column span-20 prepend-2 append-2 first last" id="footer">
-     <hr />
-     <p>This website was created with <a href="http://webby.rubyforge.org">Webby</a></p>
-   </div>
-
-</div>
+    <div id="doc">
+        <div id="hd">
+            <%- if SITE.locale == 'zh-TW' -%>
+            <p class="site-heading">你好。<%= link_to_page('我', :title => 'About') %>是<a href="/">布丁(hlb)</a>，<a href="/">這裡</a>是我的個人網站。你可以在這看到我的<a href="/writings">寫作</a>、<%= link_to_page('演說', :title => 'Talks') %>以及<%= link_to_page('連結', :title => 'Links') %>。</p>
+            <%- else -%>
+            <p class="site-heading">Hello. <%= link_to_page('I', :title => 'About') %> am <a href="/">hlb</a>, and <a href="/">this</a> is my personal site. You can see my <a href="/writings">writings</a>, <%= link_to_page('talks', :title => 'Talks') %>, and <%= link_to_page('links', :title => 'Links') %> here.</p>
+            <%- end -%>
+        </div>
+        <div id="bd">
+            <%- if !@page.hide_title -%>
+            <h1><%= @page.title %></h1>
+            <%- end -%>
+            <%= @content %>
+        </div>
+        <div id="ft">
+            <p class="elsewhere">elsewhere: <a href="http://handlino.com/">Handlino Inc.</a>, <a href="http://happydesigner.org/">HappyDesigner</a></p>
+            <address>&copy; 2009 <a href="/">hlb</a></address>
+            <p class="slogan">Let's changing the web, one site at a time</p>
+        </div>
+    </div>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+    <%= @page.content_for_footer -%>
 </body>
 </html>
