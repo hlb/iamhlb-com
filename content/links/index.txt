@@ -7,8 +7,6 @@ filter:
   - maruku
 ---
 
-# <%= h(@page.title) %>
-
 <script type="text/javascript" src="http://feeds.delicious.com/v2/js/hlb?title=Bookmarks&icon=m&count=20&sort=date&tags&extended"></script>
 <script type="text/javascript" src="http://feeds.delicious.com/v2/js/tags/hlb?title=Tags&icon&count=100&sort=alpha&flow=cloud&color=73adff-3274d0&size=10-36"></script>
 <script type="text/javascript" src="http://feeds.delicious.com/v2/js/networkbadge/hlb?showadd&icon=m&name&itemcount&nwcount&fancount"></script>

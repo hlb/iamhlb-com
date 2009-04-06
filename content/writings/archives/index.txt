@@ -1,0 +1,22 @@
+---
+title:      過往文章列表
+slogan:     Archives
+created_at: 2009-04-07 02:27:42.829346 +08:00
+filter:     erb
+dirty:      true
+---
+
+<%
+articles = @pages.find(:all, :in_directory => 'writings', :recursive => true,
+  :sort_by => "created_at", :reverse => true, :blog_post => true)
+%>
+
+<h2>There are <%= articles.length %> articles.</h2>
+
+<ul>
+<%
+articles.each do |page|
+-%>
+    <li><span class="date"><%= page.created_at.strftime('%Y/%m/%d') %></span> <%= link_to_page(page) %></li>
+<% end -%>
+</ul>

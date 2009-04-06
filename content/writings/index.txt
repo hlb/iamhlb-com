@@ -1,0 +1,31 @@
+---
+title:      寫作
+slogan:     Writings
+created_at: 2009-04-07 02:22:30.152048 +08:00
+filter:     erb
+dirty:      true
+---
+
+<%
+  articles = @pages.find(5, :in_directory => @page.dir, :recursive => true,
+      :sort_by => "created_at", :reverse => true, :blog_post => true)
+  article = articles.shift
+%>
+<div class="article">
+    <h2><%= link_to_page(article) %></h2>
+    <p class="date">(<%= article.created_at.strftime('%Y-%m-%d') %>)</p>
+    <div class="body">
+        <%= render(article) %>
+    </div>
+</div>
+
+<h2>另外五篇舊文章</h2>
+<ul>
+<%
+  articles.each do |page, i|
+-%>
+    <li><span class="date"><%= page.created_at.strftime('%Y/%m/%d') %></span> <%= link_to_page(page) %></li>
+<% end -%>
+</ul>
+
+<p><%= link_to_page("過往文章列表", :slogan => "Archives") %></p>

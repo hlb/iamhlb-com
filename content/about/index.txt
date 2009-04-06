@@ -7,8 +7,6 @@ filter:
   - maruku
 ---
 
-# <%= h(@page.title) %>
-
 設計師、公司負責人、孩子的爹。
 
 <div id="father-and-son">

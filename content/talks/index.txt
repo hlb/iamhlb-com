@@ -8,8 +8,6 @@ filter:
   - outline
 ---
 
-# <%= h(@page.title) %>
-
 <toc toc_style="ul" numbering="off" toc_range="h2-h2" />
 
 ## User Interface in the Jungle 系列
