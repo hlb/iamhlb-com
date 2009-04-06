@@ -20,9 +20,9 @@ filter:    erb
     <div id="doc">
         <div id="hd">
             <%- if SITE.locale == 'zh-TW' -%>
-            <p class="site-heading">你好。<%= link_to_page('我', :title => 'About') %>是<a href="/">布丁(hlb)</a>，<a href="/">這裡</a>是我的個人網站。你可以在這看到我的<a href="/writings">寫作</a>、<%= link_to_page('演說', :title => 'Talks') %>以及<%= link_to_page('連結', :title => 'Links') %>。</p>
+            <p class="site-heading">你好。<%= link_to_page('我', :slogan => 'About') %>是<a href="/">布丁(hlb)</a>，<a href="/">這裡</a>是我的個人網站。你可以在這看到我的<a href="/writings">寫作</a>、<%= link_to_page('演說', :slogan => 'Talks') %>以及<%= link_to_page('連結', :slogan => 'Links') %>。</p>
             <%- else -%>
-            <p class="site-heading">Hello. <%= link_to_page('I', :title => 'About') %> am <a href="/">hlb</a>, and <a href="/">this</a> is my personal site. You can see my <a href="/writings">writings</a>, <%= link_to_page('talks', :title => 'Talks') %>, and <%= link_to_page('links', :title => 'Links') %> here.</p>
+            <p class="site-heading">Hello. <%= link_to_page('I', :slogan => 'About') %> am <a href="/">hlb</a>, and <a href="/">this</a> is my personal site. You can see my <a href="/writings">writings</a>, <%= link_to_page('talks', :slogan => 'Talks') %>, and <%= link_to_page('links', :slogan => 'Links') %> here.</p>
             <%- end -%>
         </div>
         <div id="bd">
