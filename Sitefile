@@ -15,10 +15,6 @@ SITE.editor         = 'vim'
 SITE.exclude        = ["tmp$", "bak$", "~$", "CVS", "\\.svn", "\\.git", "\\.DS_Store"]
 # This value can be overridden on a case by case basis when the 'link_to_page' method is called.
 SITE.find_by        = 'slogan'
-SITE.page_defaults  = {
-    'layout' => 'default',
-    'filter' => ['erb','maruku']
-}
 SITE.uv.theme       = 'twilight'
 SITE.uv.line_numbers= true
 
