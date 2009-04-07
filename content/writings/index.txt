@@ -12,7 +12,7 @@ articles = @pages.find(:all, :in_directory => 'writings', :recursive => true,
   :sort_by => "created_at", :reverse => true, :blog_post => true)
 %>
 
-<h1>目前有 <%= articles.length %> 篇文章。<a href="/atom.xml">(RSS)</a></h1>
+<h1>目前有 <%= articles.length %> 篇文章。<a href="http://feeds2.feedburner.com/hlb">(RSS)</a></h1>
 
 <ul>
 <%
