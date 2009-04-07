@@ -7,25 +7,16 @@ dirty:      true
 ---
 
 <%
-  articles = @pages.find(5, :in_directory => @page.dir, :recursive => true,
-      :sort_by => "created_at", :reverse => true, :blog_post => true)
-  article = articles.shift
+articles = @pages.find(:all, :in_directory => 'writings', :recursive => true,
+  :sort_by => "created_at", :reverse => true, :blog_post => true)
 %>
-<div class="article">
-    <h2><%= link_to_page(article) %></h2>
-    <p class="date">(<%= article.created_at.strftime('%Y-%m-%d') %>)</p>
-    <div class="body">
-        <%= render(article) %>
-    </div>
-</div>
 
-<h2>另外五篇舊文章</h2>
+<h2>There are <%= articles.length %> articles.</h2>
+
 <ul>
 <%
-  articles.each do |page, i|
+articles.each do |page|
 -%>
     <li><span class="date"><%= page.created_at.strftime('%Y/%m/%d') %></span> <%= link_to_page(page) %></li>
 <% end -%>
 </ul>
-
-<p><%= link_to_page("過往文章列表", :slogan => "Archives") %></p>
