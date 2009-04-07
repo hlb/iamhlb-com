@@ -8,3 +8,5 @@ ExpiresByType image/jpeg "access plus 1 day"
 ExpiresByType image/png "access plus 1 day"
 ExpiresByType image/bmp "access plus 1 day"
 ExpiresByType application/x-shockwave-flash A3600
+
+ErrorDocument 404 /404.html

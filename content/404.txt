@@ -1,0 +1,31 @@
+---
+title:      Oops! 404 File Not Found.
+slogan:     404 File Not Found
+created_at: 2009-04-07 02:22:30.152048 +08:00
+filter:     erb
+dirty:      true
+---
+
+<h2>你可以選擇搜尋本站：</h2>
+<form action="http://www.google.com/cse" id="cse-search-box">
+    <div>
+        <input type="hidden" name="cx" value="000006068729911032034:a6gjewoc_e4" />
+        <input type="hidden" name="ie" value="UTF-8" />
+        <input type="text" name="q" size="31" />
+        <input type="submit" name="sa" value="搜尋本站" />
+    </div>
+</form>
+<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&lang=en"></script>
+
+<%
+articles = @pages.find(:all, :in_directory => 'writings', :recursive => true,
+  :sort_by => "created_at", :reverse => true, :blog_post => true)
+%>
+<h2>或是看看你要找的文章在不在以下 <%= articles.length %> 篇裡。</h2>
+<ul>
+<%
+articles.each do |page|
+-%>
+    <li><span class="date"><%= page.created_at.strftime('%Y/%m/%d') %></span> <%= link_to_page(page) %></li>
+<% end -%>
+</ul>
