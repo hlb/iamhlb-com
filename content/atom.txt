@@ -1,7 +1,7 @@
 ---
-title:     <%= SITE.name %>
-site:      <%= SITE.host %>
-author:    <%= SITE.author %>
+title:     iamhlb
+site:      iamhlb.com
+author:    hlb
 extension: xml
 layout:    nil
 dirty:     true
@@ -10,7 +10,7 @@ filter:    erb
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title><%= h(@page.title) %></title>
-  <link href="http://<%= @page.site %>//" rel="self" />
+  <link href="http://<%= @page.site %>/" rel="self" />
   <link href="http://<%= @page.site %>/" />
   <updated><%= Time.now.xmlschema %></updated>
   <author>

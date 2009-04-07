@@ -21,7 +21,7 @@ dirty:       true
     </div>
 </div>
 
-<h2>另外五篇舊文章</h2>
+<h2>另外五篇舊文章<a href="/atom.xml">(RSS)</a></h2>
 <ul>
 <%
   articles.each do |page, i|
