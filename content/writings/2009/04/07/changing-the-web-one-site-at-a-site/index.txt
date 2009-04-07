@@ -18,7 +18,7 @@ filter:
 自訂 CSS，所以整個網站就改用 Google Sites 跟 Blogger 來維護了。
 
 雖然把自己的[舊網站][hlb_yichi]給搬了回來，不過我不想要繼續使用 [WordPress][wordpress]
-這套出版系統，所以保留三個月後應該就會直接關站了。
+這套出版系統，所以保留三個月後應該就會直接[關站][off_announcement]了。
 
 （上次發現 CCCA 以前的舊網站已經完全不能連了，只能[看 archive.org 憑弔一下][hlb_ccca]。）
 
@@ -32,3 +32,4 @@ filter:
 [hlb_iamhlb]: http://iamhlb.com/
 [wordpress]: http://wordpress.org/
 [webby]: http://webby.rubyforge.org/
+[off_announcement]: http://hlb.yichi.org/blog/2009/04/01/346
