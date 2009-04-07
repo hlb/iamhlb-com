@@ -25,7 +25,7 @@ filter:    erb
 -%>
   <entry>
     <title><%= h(article.title) %></title>
-    <link href="<%= article.url %>" />
+    <link href="http://<%= @page.site %><%= article.url %>" />
     <id>tag:<%= @page.site %>,<%= article.created_at.strftime('%Y-%m-%d') %>:<%= article.created_at.to_i %></id>
     <updated><%= article.created_at.xmlschema %></updated>
 <%  if @page.author -%>
