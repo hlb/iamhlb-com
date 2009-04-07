@@ -30,4 +30,4 @@ dirty:       true
 <% end -%>
 </ul>
 
-<p><%= link_to_page("過往文章列表", :slogan => "Archives") %></p>
+<p><%= link_to_page("過往文章列表", :slogan => "Writings") %></p>
