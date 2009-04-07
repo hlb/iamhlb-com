@@ -8,12 +8,9 @@ filter:    erb
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <title><%= h(@page.title) %> - <%= SITE.name %></title>
     <meta name="author" content="<%= SITE.author %>">
+    <!-- reset/fonts/base/uv/twilight/site -->
     <!--[if gte IE 7]><!-->
-    <link rel="stylesheet" href="/css/reset.css" type="text/css" media="screen, projection">
-    <link rel="stylesheet" href="/css/fonts.css" type="text/css" media="screen, projection">
-    <link rel="stylesheet" href="/css/base.css" type="text/css" media="screen, projection">
-    <link rel="stylesheet" href="/css/uv/twilight.css" type="text/css" media="screen, projection">
-    <link rel="stylesheet" href="/css/site.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="/css/all.css?1" type="text/css" media="screen, projection">
     <link id="delicious-blogbadge-css" href="http://static.delicious.com/css/blogbadge.css" rel="stylesheet" type="text/css" />
     <%- if @page.custom_css -%>
     <link rel="stylesheet" href="<%= @page.custom_css %>.css" type="text/css" media="screen, projection">
