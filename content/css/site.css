@@ -16,7 +16,7 @@ color:
 ---
 
 body {
-    font-family: HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: HelveticaNeue, 'Helvetica Neue', 'Microsoft JhengHei', 'Microsoft YaHei', Arial, Helvetica, Meiryo, sans-serif;
     font-weight: 300;
     margin: 0;
     padding: 20px 20px 20px 40px;
@@ -31,7 +31,7 @@ body {
 #hd .site-heading {
     font-size: 48px;
     text-shadow: #ddd 1px 1px 1px;
-    font-family: HelveticaNeue, 'Helvetica Neue', Arial, Helvetica, 'Microsoft JhengHei', 'Microsoft YaHei', Meiryo, sans-serif;
+    font-family: HelveticaNeue, 'Helvetica Neue', 'Microsoft JhengHei', 'Microsoft YaHei', Arial, Helvetica, Meiryo, sans-serif;
     font-weight: bold;
     color: #333;
     margin: 0;
