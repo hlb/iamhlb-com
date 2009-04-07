@@ -40,12 +40,11 @@ body {
 #hd .site-heading a {
     text-decoration: none;
 }
-
-#hd .site-heading a:hover {
-    color: #963;
-}
 #hd .site-heading a:visited {
     color: #999;
+}
+#hd .site-heading a:hover {
+    color: #963;
 }
 
 #bd {
