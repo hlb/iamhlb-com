@@ -1,0 +1,10 @@
+ExpiresActive On
+ExpiresDefault "access plus 2 hours"
+ExpiresByType text/html A900
+ExpiresByType text/plain "access plus 1 hours"
+ExpiresByType image/gif "access plus 1 day"
+ExpiresByType image/jpg "access plus 1 day"
+ExpiresByType image/jpeg "access plus 1 day"
+ExpiresByType image/png "access plus 1 day"
+ExpiresByType image/bmp "access plus 1 day"
+ExpiresByType application/x-shockwave-flash A3600
