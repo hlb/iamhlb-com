@@ -47,12 +47,27 @@ body {
 #hd .site-heading a:visited {
     color: #999;
 }
+
 #bd {
-    margin-top: 1em;
+    margin-top: 2em;
+    font-size: 108%; 
+    line-height: 1.5;
+}
+
+h1.title {
+    margin-bottom: 0;
+}
+
+p.date {
+    font-size: 85%;
+}
+
+.content h2 {
+    border-bottom: 1px solid <%= @page.color['border'] %>;
 }
 
 #ft {
-    border-top: 1px solid <%= @page.color['quiet'] %>;
+    border-top: 1px solid <%= @page.color['border'] %>;
     margin-top: 1em;
 }
 
@@ -74,19 +89,6 @@ body {
  * --------------------------------------------------------------------- */
 h1,h2,h3,h4,h5,h6 { color: <%= @page.color['header'] %>; }
 
-#bd {
-    font-size: 108%; 
-    line-height: 1.5;
-}
-
-h1.title {
-    margin-bottom: 0;
-}
-
-p.date {
-    font-size: 85%;
-}
-
 /* Text Elements
  * --------------------------------------------------------------------- */
 a                 { color: <%= @page.color['link'] %>; }
@@ -103,69 +105,7 @@ hr {
   color:      <%= @page.color['highlight'] %>;
 }
 
-/* Tables
- * --------------------------------------------------------------------- */
-table {
-  border-top:     1px solid <%= @page.color['border'] %>;
-  border-left:    1px solid <%= @page.color['border'] %>;
-}
-th,td {
-  border-bottom:  1px solid <%= @page.color['border'] %>;
-  border-right:   1px solid <%= @page.color['border'] %>;
+.delicious-blogbadge-line {
+    margin-top: 2em;
 }
 
-/* Default Classes
- * --------------------------------------------------------------------- */
-p.quiet { color: <%= @page.color['quiet'] %>; }
-.alt    { color: <%= @page.color['alt'] %>; }
-
-@-webkit-keyframes mrding {
-    0% {
-    }
-    10% {
-        -webkit-transform: translate(40px,0px);
-    }
-    15% {
-        -webkit-transform: translate(50px,-242px) rotate(180deg);
-    }
-    20% {
-        -webkit-transform: translate(60px,-474px) rotate(360deg);
-    }
-    40% {
-        -webkit-transform: translate(500px,-474px);
-    }
-    45% {
-        -webkit-transform: translate(510px,-242px) rotate(180deg);
-    }
-    50% {
-        -webkit-transform: translate(520px,0px) rotate(360deg);
-    }
-    70% {
-        -webkit-transform: translate(800px,0px);
-    }
-    90% {
-        -webkit-transform: translate(-100px,0px);
-    }
-    100% {
-        -webkit-transform: translate(0,0);
-    }
-}
-
-#father-and-son {
-    position: relative;
-    padding-top: 150px;
-}
-#father {
-    display: block;
-    margin-left: 100px;
-}
-#son {
-    display: block;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    -webkit-animation-name: mrding;
-    -webkit-animation-duration: 4s;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: ease-in;
-}

@@ -1,0 +1,51 @@
+@-webkit-keyframes mrding {
+    0% {
+    }
+    10% {
+        -webkit-transform: translate(40px,0px);
+    }
+    15% {
+        -webkit-transform: translate(50px,-242px) rotate(180deg);
+    }
+    20% {
+        -webkit-transform: translate(60px,-474px) rotate(360deg);
+    }
+    40% {
+        -webkit-transform: translate(500px,-474px);
+    }
+    45% {
+        -webkit-transform: translate(510px,-242px) rotate(180deg);
+    }
+    50% {
+        -webkit-transform: translate(520px,0px) rotate(360deg);
+    }
+    70% {
+        -webkit-transform: translate(800px,0px);
+    }
+    90% {
+        -webkit-transform: translate(-100px,0px);
+    }
+    100% {
+        -webkit-transform: translate(0,0);
+    }
+}
+
+#father-and-son {
+    position: relative;
+    padding-top: 150px;
+}
+#father {
+    display: block;
+    margin-left: 100px;
+}
+#son {
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    -webkit-animation-name: mrding;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in;
+}
+
