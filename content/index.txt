@@ -14,9 +14,9 @@ dirty:       true
   article = articles.shift
 %>
 <div class="article">
-    <h2><%= link_to_page(article) %></h2>
-    <p class="date">(<%= article.created_at.strftime('%Y-%m-%d') %>)</p>
-    <div class="body">
+    <h1><%= link_to_page(article) %></h1>
+    <p class="date">成文於<%= article.created_at.strftime('%Y/%m/%d %I:%M%p') %></p>
+    <div class="content">
         <%= render(article) %>
     </div>
 </div>

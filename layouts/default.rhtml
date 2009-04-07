@@ -14,6 +14,7 @@ filter:    erb
     <link rel="stylesheet" href="/css/base.css" type="text/css" media="screen, projection">
     <link rel="stylesheet" href="/css/uv/twilight.css" type="text/css" media="screen, projection">
     <link rel="stylesheet" href="/css/site.css" type="text/css" media="screen, projection">
+    <link id="delicious-blogbadge-css" href="http://static.delicious.com/css/blogbadge.css" rel="stylesheet" type="text/css" />
     <%- if @page.custom_css -%>
     <link rel="stylesheet" href="<%= @page.custom_css %>.css" type="text/css" media="screen, projection">
     <%- end -%>
@@ -32,9 +33,15 @@ filter:    erb
         </div>
         <div id="bd">
             <%- if !@page.hide_title -%>
-            <h1><%= @page.title %></h1>
+            <h1><%= h(@page.title) %></h1>
             <%- end -%>
-            <%= @content %>
+            <%- if @page.blog_post -%>
+            <p class="date">成文於<%= @page.created_at.strftime('%Y/%m/%d %I:%M%p') %></p>
+            <%- end -%>
+            <div class="content">
+                <%= @content %>
+            </div>
+            <div class="delicious-blogbadge-line" id="badge"></div>
         </div>
         <div id="ft">
             <p class="elsewhere">elsewhere: <a href="http://handlino.com/">Handlino Inc.</a>, <a href="http://happydesigner.org/">HappyDesigner</a></p>
@@ -43,6 +50,13 @@ filter:    erb
         </div>
     </div>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
-    <%= @page.content_for_footer -%>
+    <script type="text/javascript">
+        if (typeof window.Delicious == "undefined") window.Delicious = {};
+        Delicious.BLOGBADGE_MANUAL_MODE = true;
+    </script>
+    <script src="http://static.delicious.com/js/blogbadge.js"></script>
+    <script type="text/javascript">
+        Delicious.BlogBadge.register('badge', '<%= SITE.base + @page.url %>', '<%= h(@page.title) %> - <%= SITE.name %>');
+    </script>
 </body>
 </html>
