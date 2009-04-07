@@ -23,10 +23,8 @@ body {
 }
 
 #doc {
-    font-size: 123.1%;
     width: 640px;
     max-width: 96%;
-    line-height: 1.5;
     color: #333;
 }
 
@@ -76,6 +74,19 @@ body {
  * --------------------------------------------------------------------- */
 h1,h2,h3,h4,h5,h6 { color: <%= @page.color['header'] %>; }
 
+#bd {
+    font-size: 108%; 
+    line-height: 1.5;
+}
+
+h1.title {
+    margin-bottom: 0;
+}
+
+p.date {
+    font-size: 85%;
+}
+
 /* Text Elements
  * --------------------------------------------------------------------- */
 a                 { color: <%= @page.color['link'] %>; }
@@ -107,15 +118,6 @@ th,td {
  * --------------------------------------------------------------------- */
 p.quiet { color: <%= @page.color['quiet'] %>; }
 .alt    { color: <%= @page.color['alt'] %>; }
-
-p.title {
-  color: #111;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 2em;
-  margin-bottom: 0.75em;
-}
-
-#header p.title { font-size: 3em; line-height: 1; margin-bottom: 0.5em; }
 
 @-webkit-keyframes mrding {
     0% {
