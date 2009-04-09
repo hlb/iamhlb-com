@@ -103,17 +103,17 @@ hr {
     margin-top: 2em;
 }
 
-.UltraViolet {
-    float: left;
-    overflow: hidden;
-    width: 100%;
-}
-.UltraViolet:hover {
-    float: left;
-    width: auto;
-    overflow: auto;
+.UltraViolet:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
 }
 
 .UltraViolet pre {
-    padding: 10px 5px;
+    margin-bottom: 0;
+    float: left;
+    width: auto;
+    padding-right: 10px;
 }
