@@ -36,8 +36,8 @@ pre.twilight .Storage {
    color: #F9EE98;
 }
 pre.twilight .line-numbers {
-   background-color: inherit;
-   color: #999999;
+   background-color: #DDF0FF;
+   color: #000000;
 }
 pre.twilight .CssClass {
    color: #9B703F;
