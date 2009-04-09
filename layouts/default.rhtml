@@ -12,7 +12,7 @@ filter:    erb
     <!--[if gte IE 7]><!-->
     <link rel="stylesheet" href="/css/reset-fonts-base-twilight.css?v1" type="text/css" media="screen, projection">
     <link rel="stylesheet" href="/css/site.css?v1" type="text/css" media="screen, projection">
-    <link id="delicious-blogbadge-css" href="http://static.delicious.com/css/blogbadge.css" rel="stylesheet" type="text/css" />
+    <link id="delicious-blogbadge-css" href="http://static.delicious.com/css/blogbadge.css" rel="stylesheet" type="text/css">
     <%- if @page.custom_css -%>
     <link rel="stylesheet" href="<%= @page.custom_css %>.css" type="text/css" media="screen, projection">
     <%- end -%>
@@ -23,6 +23,9 @@ filter:    erb
 <body>
     <div id="doc">
         <div id="hd">
+            <!--[if lt IE 7]>
+            <h1>抱歉，你的瀏覽器版本太舊了，請升級到 IE 7 以上或 Firefox, Safari, Opera 等更好的瀏覽器。</h1>
+            <![endif]-->
             <%- if SITE.locale == 'zh-TW' -%>
             <p class="site-heading">你好。<%= link_to_page('我', :slogan => 'About') %>是<a href="/">布丁(hlb)</a>，<a href="/">這裡</a>是我的個人網站。你可以在這看到我的<a href="/writings">寫作</a>、<%= link_to_page('演說', :slogan => 'Talks') %>以及<%= link_to_page('連結', :slogan => 'Links') %>。</p>
             <%- else -%>
