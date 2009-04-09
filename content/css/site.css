@@ -94,11 +94,6 @@ a                 { color: <%= @page.color['link'] %>; }
 a:hover           { color: <%= @page.color['link-hover'] %>; }
 blockquote        { color: <%= @page.color['blockquote'] %>; }
 
-pre {
-  background: <%= @page.color['box-bg'] %>;
-  border:     1px solid <%= @page.color['border'] %>;
-}
-
 hr {
   background: <%= @page.color['highlight'] %>;
   color:      <%= @page.color['highlight'] %>;
@@ -108,3 +103,17 @@ hr {
     margin-top: 2em;
 }
 
+.UltraViolet {
+    float: left;
+    overflow: hidden;
+    width: 100%;
+}
+.UltraViolet:hover {
+    float: left;
+    width: auto;
+    overflow: auto;
+}
+
+.UltraViolet pre {
+    padding: 10px 5px;
+}
