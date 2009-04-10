@@ -54,7 +54,7 @@ body {
 }
 
 h1.title {
-    margin-bottom: 0;
+    margin-bottom: 0.5em;
 }
 
 p.date {
@@ -99,6 +99,10 @@ hr {
   color:      <%= @page.color['highlight'] %>;
 }
 
+#prev-next {
+    margin-bottom: 2em;
+    font-size: 85%;
+}
 .delicious-blogbadge-line {
     margin-top: 2em;
 }

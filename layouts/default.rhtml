@@ -36,12 +36,13 @@ filter:    erb
             <%- if !@page.hide_title -%>
             <h1 class="title"><%= h(@page.title) %></h1>
             <%- end -%>
-            <%- if @page.blog_post -%>
-            <p class="date">成文於<%= @page.created_at.strftime('%Y/%m/%d %I:%M%p') %></p>
-            <%- end -%>
             <div class="content">
                 <%= @content %>
             </div>
+            <%- if @page.blog_post -%>
+            <p class="date">– 撰寫於 <%= @page.created_at.strftime('%Y/%m/%d %I:%M%p') %></p>
+            <div id="prev-next"><%= blog_prev_next %></div>
+            <%- end -%>
             <div class="delicious-blogbadge-line" id="badge"></div>
         </div>
         <div id="ft">
