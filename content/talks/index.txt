@@ -8,6 +8,10 @@ filter:
   - outline
 ---
 
+以下是我過去演講的投影片。如果貴單位希望找我去分享心得，歡迎[聯絡我][contact_me]。
+
+[contact_me]: http://iamhlb.local/about/#contact
+
 <toc toc_style="ul" numbering="off" toc_range="h2-h2" />
 
 ## User Interface in the Jungle 系列
