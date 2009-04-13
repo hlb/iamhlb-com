@@ -15,10 +15,10 @@ dirty:       true
 %>
 <div class="article">
     <h1 class="title"><%= link_to_page(article) %></h1>
-    <p class="date">成文於<%= article.created_at.strftime('%Y/%m/%d %I:%M%p') %></p>
     <div class="content">
         <%= render(article) %>
     </div>
+    <p class="date">– 撰寫於 <%= article.created_at.strftime('%Y/%m/%d %I:%M%p') %></p>
 </div>
 
 <h2>另外五篇舊文章<a href="http://feeds2.feedburner.com/hlb">(RSS)</a></h2>
