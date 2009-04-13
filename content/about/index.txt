@@ -8,11 +8,13 @@ filter:
   - maruku
 ---
 
-我是薛良斌，網站UI設計師、[和多 Handlino Inc.](http://handlino.com/) 的共同創辦人，同時也是一個可愛孩子的爹。
+我是薛良斌，[快樂網頁設計師 HappyDesigner](http://www.happydesigner.org/) 社群核心成員、[和多 Handlino Inc.](http://handlino.com/) 的UI設計師兼共同創辦人，同時也是一個可愛孩子的爹。
 
 hlb 是我的英文姓名縮寫，同時也是我在網路上的代號。親朋好友都叫我「布丁」，你也可以這樣稱呼我。
 
 如果我沒有特別聲明的話，這個網站上所有的文章、圖片、程式碼皆採用 [Creative Commons Attribution-NonCommercial 2.5 Taiwan](http://creativecommons.org/licenses/by-nc/2.5/tw/) 授權。只要不是商業用途，你只要註記上我的名字跟來源網址，就可以自行取用，不需要另外知會我。
+
+## 聯絡我 {#contact}
 
 我的各式聯絡方式如下：
 
