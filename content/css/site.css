@@ -126,3 +126,13 @@ hr {
     display: inline;
 }
 
+/* vimeo badge */
+.vimeo-badge { margin: 0; padding: 0; font: normal 11px verdana,sans-serif; }
+.vimeo-badge img { border: 0; }
+.vimeo-badge .vimeo-badge a:link, .vimeo-badge a:visited, .vimeo-badge a:active { color:#3A75C4; text-decoration:none; cursor:pointer; }
+.vimeo-badge a:hover { color:#00CCFF; }
+.vimeo-badge #vimeo_badge_logo { display: none; }
+.vimeo-badge .credit { font: normal 11px verdana,sans-serif; }
+.vimeo-badge .clip { padding:0; float:left; margin:0 10px 10px 0; width:100px; line-height:0; }
+.vimeo-badge .caption { font: normal 11px verdana,sans-serif; overflow:hidden; width:100px; }
+.vimeo-badge .clear { display: block; clear: both; visibility: hidden; } 

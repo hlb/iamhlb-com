@@ -31,3 +31,9 @@ dirty:       true
 </ul>
 
 <p><%= link_to_page("過往文章列表", :slogan => "Writings") %></p>
+
+<h2>最新影片 on Vimeo</h2>
+
+<div class="vimeo-badge">
+    <script type="text/javascript" src="http://vimeo.com/hlb/badgeo/?stream=uploaded&amp;stream_id=&amp;count=5&amp;thumbnail_width=100&amp;show_titles=yes"></script>
+</div>
