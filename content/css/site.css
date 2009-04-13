@@ -121,3 +121,8 @@ hr {
     width: auto;
     padding-right: 10px;
 }
+
+.footnotes p {
+    display: inline;
+}
+
