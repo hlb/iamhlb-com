@@ -89,6 +89,7 @@ _dl.style.top = "0px";
 _dl.style.left = "0px";
 _dl.style.filter = "alpha(opacity=50)";
 _dl.style.background = "#fff";
+_dl.style.zIndex = "9998";
 var _dd = document.getElementById('_d');
 _ddw = 650;
 _ddh = 260;
@@ -104,6 +105,7 @@ _dd.style.fontFamily = "'Lucida Grande','Lucida Sans Unicode',Arial,Verdana,sans
 _dd.style.listStyleType = "none";
 _dd.style.color = "#4F4F4F";
 _dd.style.fontSize = "12px";
+_dd.style.zIndex = "9999";
 _h.appendChild(document.createTextNode(msg1));
 var _hd = document.getElementById('_h');
 _hd.style.display = "block";
