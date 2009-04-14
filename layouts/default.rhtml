@@ -9,14 +9,12 @@ filter:    erb
     <title><%= h(@page.title) %> - <%= SITE.name %></title>
     <meta name="author" content="<%= SITE.author %>">
     <!-- reset/fonts/base/uv/twilight/site -->
-    <!--[if gte IE 7]><!-->
     <link rel="stylesheet" href="/css/reset-fonts-base-twilight.css?0409" type="text/css" media="screen, projection">
     <link rel="stylesheet" href="/css/site.css?0413" type="text/css" media="screen, projection">
     <link rel="stylesheet" href="http://static.delicious.com/css/blogbadge.css" type="text/css" media="screen, projection" id="delicious-blogbadge-css">
     <%- if @page.custom_css -%>
     <link rel="stylesheet" href="<%= @page.custom_css %>.css" type="text/css" media="screen, projection">
     <%- end -%>
-    <!--<![endif]-->
     <link rel="alternate" type="application/atom+xml" href="http://feeds2.feedburner.com/hlb">
     <%= @page.content_for_header -%>
 </head>
@@ -99,6 +97,6 @@ filter:    erb
             pageTracker._trackPageview();
         } catch(err) {}
     </script>
-    <!--[if lte IE 6]><script type="text/javascript" src="/js/ie6/warning.js"></script><script type="text/javascript">$(function() { e('/js/ie6/'); });</script><![endif]-->
+    <!--[if lt IE 7]><script type="text/javascript" src="/js/ie6/warning.js"></script><script type="text/javascript">$(function() { e('/js/ie6/'); });</script><![endif]-->
 </body>
 </html>
