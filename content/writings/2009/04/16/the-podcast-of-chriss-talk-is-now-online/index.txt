@@ -10,7 +10,7 @@ filter:
 
 
 
-[![Chris and me](http://farm4.static.flickr.com/3382/3447399678_6bb19c5daa_d.jpg)](http://www.flickr.com/photos/codepo8/3447399134/in/set-72157616769902459/ "Chris and me")
+[![Chris and me](http://farm4.static.flickr.com/3382/3447399678_6bb19c5daa_d.jpg)](http://www.flickr.com/photos/codepo8/3446586427/in/set-72157616769902459/ "Chris and me")
 
 I have attended the [Yahoo! University Talk in NCTU](http://registrano.com/events/090416ydn) today. [Chris](http://www.wait-till-i.com/) is a very good speaker. He provides a very clear overview, and make people laugh from start to finish. You can [check out his slide](http://www.wait-till-i.com/2009/04/16/the-road-to-professional-web-development-my-university-talk-in-taiwan/).
 
