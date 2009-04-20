@@ -10,7 +10,7 @@ filter:    erb
     <meta name="author" content="<%= SITE.author %>">
     <!-- reset/fonts/base/uv/twilight/site -->
     <link rel="stylesheet" href="/css/reset-fonts-base-twilight.css?0409" type="text/css" media="screen, projection">
-    <link rel="stylesheet" href="/css/site.css?0413" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="/css/site.css?0421" type="text/css" media="screen, projection">
     <link rel="stylesheet" href="http://static.delicious.com/css/blogbadge.css" type="text/css" media="screen, projection" id="delicious-blogbadge-css">
     <%- if @page.custom_css -%>
     <link rel="stylesheet" href="<%= @page.custom_css %>.css" type="text/css" media="screen, projection">
@@ -35,6 +35,9 @@ filter:    erb
         <div id="bd">
             <%- if !@page.hide_title -%>
             <h1 class="title"><%= h(@page.title) %></h1>
+            <%- end -%>
+            <%- if @page.blog_post -%>
+            <p class="calendar"><span class="month"><%= @page.created_at.strftime('%b') %></span><span class="split">/</span><span class="day"><%= @page.created_at.day %></span></p>
             <%- end -%>
             <div class="content">
                 <%= @content %>
