@@ -22,9 +22,9 @@ hlb 是我的英文姓名縮寫，同時也是我在網路上的代號。親朋�
 * MSN/GTalk: hlb at handlino dot com
 * Yahoo Messager: hlbyichi
 * Skype: lbhsueh
-* [Twitter: hlb](http://twitter.com/hlb)
-* [plurk: hlb](http://www.plurk.com/hlb)
-* [Flickr: hlb](http://www.flickr.com/photos/hlb)
+* [hlb on Twitter](http://twitter.com/hlb)
+* [hlb on plurk](http://www.plurk.com/hlb)
+* [hlb on Flickr](http://www.flickr.com/photos/hlb)
 
 喔，如果你用 Safari 4 瀏覽這一頁，會看到意味不明的 CSS 動畫效果喔。
 
