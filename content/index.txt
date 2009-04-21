@@ -22,7 +22,7 @@ dirty:       true
     <p class="date">– 撰寫於 <%= article.created_at.strftime('%Y/%m/%d %I:%M%p') %></p>
 </div>
 
-<h2>另外五篇舊文章<a href="http://feeds2.feedburner.com/hlb">(RSS)</a></h2>
+<h2>另外五篇舊文章 <a href="http://feeds2.feedburner.com/hlb">(RSS)</a></h2>
 <ul>
 <%
   articles.each do |page, i|
@@ -33,7 +33,7 @@ dirty:       true
 
 <p><%= link_to_page("過往文章列表", :slogan => "Writings") %></p>
 
-<h2>最新影片 on Vimeo</h2>
+<h2>最新影片 on Vimeo <a href="http://vimeo.com/hlb/videos/rss">(RSS)</a></h2>
 
 <div class="vimeo-badge">
     <script type="text/javascript" src="http://vimeo.com/hlb/badgeo/?stream=uploaded&amp;stream_id=&amp;count=5&amp;thumbnail_width=100&amp;show_titles=yes"></script>
