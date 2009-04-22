@@ -12,7 +12,6 @@ SITE.locale         = 'zh-TW'
 SITE.base           = "http://iamhlb.com"
 SITE.blog_dir       = 'writings'
 SITE.create_mode    = 'directory'
-SITE.editor         = '/usr/bin/see -wr'
 SITE.exclude       += %w(\.git)
 SITE.exclude       += %w(\.DS_Store)
 SITE.uv.theme       = 'twilight'
