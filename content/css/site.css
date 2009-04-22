@@ -91,6 +91,7 @@ h1,h2,h3,h4,h5,h6 { color: <%= @page.color['header'] %>; }
 /* Text Elements
  * --------------------------------------------------------------------- */
 a                 { color: <%= @page.color['link'] %>; }
+a:visited         { color: #235; }
 a:hover           { color: <%= @page.color['link-hover'] %>; }
 blockquote        { color: <%= @page.color['blockquote'] %>; }
 
