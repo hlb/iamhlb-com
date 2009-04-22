@@ -137,7 +137,7 @@ hr {
 .vimeo-badge .caption { font: normal 11px verdana,sans-serif; overflow:hidden; width:100px; }
 .vimeo-badge .clear { display: block; clear: both; visibility: hidden; } 
 
-a {-webkit-transition-duration: .33s; -webkit-transition-property: color, background;}
+a {-webkit-transition-duration: 1s; -webkit-transition-property: color, background;}
 
 .calendar {
     background-image: url(/images/calendar.png);
