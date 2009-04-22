@@ -27,7 +27,7 @@ filter:
 
 [othree](http://blog.othree.net/)的lightning talk真是完美演出，五分鐘剛剛好！（剛剛好在我要按下共鳴音效的時候結束，太厲害了）
 
-[jeremy](http://ria.richtechmedia.com/)大大我對不起你 >_<...... 下次至少應該找你講一小時才對 :D
+[jeremy](http://ria.richtechmedia.com/)大大我對不起你 >\_<...... 下次至少應該找你講一小時才對 :D
 
 Jedi++, slzzp++, xdite++ （報名lightning talk）
 

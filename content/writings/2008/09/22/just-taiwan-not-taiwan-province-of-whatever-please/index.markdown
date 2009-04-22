@@ -8,7 +8,7 @@ filter:
 
 UPDATE: [good news](http://www.koziarski.net/archives/2008/9/24/countries-and-controversies) from Koz. See comments in this post for details. ihower++.
 
-I enjoy Rails and think it is a really promising framework, but the Rails core team really [make me sad](http://github.com/rails/rails/commit/3353b85b0eae76bf36ae7c2f7b6adc1863278a8e) about the country_select recently.
+I enjoy Rails and think it is a really promising framework, but the Rails core team really [make me sad](http://github.com/rails/rails/commit/3353b85b0eae76bf36ae7c2f7b6adc1863278a8e) about the `country_select` recently.
 
 I do not want to take this issue personally, but I agree [every word yllan said in his blog post](http://yllan.org/blog/archives/296) totally. Let's face it, you can not solve a problem by putting it into another box. The problem is still there, and "good default" is the only rescue. I think "[Avoid Preferences](http://gettingreal.37signals.com/ch06_Avoid_Preferences.php)" is also true in the open source development.
 
