@@ -15,7 +15,7 @@ dirty:       true
 %>
 <div class="article">
     <h1 class="title"><%= link_to_page(article) %></h1>
-    <p class="calendar"><span class="month"><%= @page.created_at.strftime('%b') %></span><span class="split">/</span><span class="day"><%= @page.created_at.day %></span></p>
+    <p class="calendar"><span class="month"><%= article.created_at.strftime('%b') %></span><span class="split">/</span><span class="day"><%= article.created_at.day %></span></p>
     <div class="content">
         <%= render(article) %>
     </div>
