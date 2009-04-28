@@ -26,7 +26,6 @@ filter:
 
 * [投影片](http://www.slideshare.net/hlb/user-interface-in-the-jungle-xuite)
 * [心得](http://hlb.yichi.org/blog/2009/03/15/340)
-
 * [投影片 slideshare]()
 
 ### UI Gathering, 2009/3/7
