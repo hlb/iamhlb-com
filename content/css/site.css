@@ -178,3 +178,145 @@ a {-webkit-transition-duration: 1s; -webkit-transition-property: color, backgrou
     height: 45px;
     color: #000;
 }
+.ads {
+    position: fixed;
+    left: 700px;
+    top: 440px;
+}
+.ads ul {
+    margin: 0;
+}
+.ads ul li {
+    list-style: none;
+    font-size: 85%;
+}
+
+.content h2 {
+    border-bottom: 1px solid <%= @page.color['border'] %>;
+}
+
+#ft {
+    border-top: 1px solid <%= @page.color['border'] %>;
+    margin-top: 1em;
+}
+
+#ft address {
+    margin: 1em 0;
+}
+
+#ft .elsewhere {
+    float: right;
+    margin: 1em 0;
+}
+
+#ft .slogan {
+    font-family: Zapfino, "Zapf Chancery", "Lucida Handwriting", "Monotype Corsiva", "Bradley Hand ITC", "Brush Script MT", Mistral, Helvetica, Arial, cursive;
+    margin-top: 2em;
+}
+
+/* Headings
+ * --------------------------------------------------------------------- */
+h1,h2,h3,h4,h5,h6 { color: <%= @page.color['header'] %>; }
+
+/* Text Elements
+ * --------------------------------------------------------------------- */
+a                 { color: <%= @page.color['link'] %>; }
+a:visited         { color: #235; }
+a:hover           { color: <%= @page.color['link-hover'] %>; }
+blockquote        { color: <%= @page.color['blockquote'] %>; }
+
+hr {
+  background: <%= @page.color['highlight'] %>;
+  color:      <%= @page.color['highlight'] %>;
+}
+
+#prev-next {
+    margin-bottom: 2em;
+    font-size: 85%;
+}
+.delicious-blogbadge-line {
+    margin-top: 2em;
+}
+
+.UltraViolet {
+    margin: 1em 0;
+}
+
+.UltraViolet:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.UltraViolet pre {
+    margin-bottom: 0;
+    float: left;
+    min-width: 100%;
+    width: auto;
+    padding-right: 10px;
+}
+
+.footnotes p {
+    display: inline;
+}
+
+/* vimeo badge */
+.vimeo-badge { margin: 0; padding: 0; font: normal 11px verdana,sans-serif; }
+.vimeo-badge img { border: 0; }
+.vimeo-badge .vimeo-badge a:link, .vimeo-badge a:visited, .vimeo-badge a:active { color:#3A75C4; text-decoration:none; cursor:pointer; }
+.vimeo-badge a:hover { color:#00CCFF; }
+.vimeo-badge #vimeo_badge_logo { display: none; }
+.vimeo-badge .credit { font: normal 11px verdana,sans-serif; }
+.vimeo-badge .clip { padding:0; float:left; margin:0 10px 10px 0; width:100px; line-height:0; }
+.vimeo-badge .caption { font: normal 11px verdana,sans-serif; overflow:hidden; width:100px; }
+.vimeo-badge .clear { display: block; clear: both; visibility: hidden; } 
+
+a {-webkit-transition-duration: 1s; -webkit-transition-property: color, background;}
+
+.calendar {
+    background-image: url(/images/calendar.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    width: 100px;
+    height: 98px;
+    line-height: 1;
+    font-family: Aller, Tahoma, Verdana, sans-serif;
+    font-weight: bold;
+    float: right;
+    margin-right: -110px;
+}
+.calendar .split {
+    display: none;
+}
+.calendar .month {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 8px;
+    font-size: 19px;
+    line-height: 23px;
+    height: 23px;
+    color: #f1f1f1;
+}
+.calendar .day {
+    display: block;
+    text-align: center;
+    font-size: 42px;
+    line-height: 45px;
+    height: 45px;
+    color: #000;
+}
+.ads {
+    position: fixed;
+    left: 700px;
+    top: 440px;
+}
+.ads ul {
+    margin: 0;
+}
+.ads ul li {
+    list-style: none;
+    font-size:
+}
