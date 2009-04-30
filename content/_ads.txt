@@ -1,0 +1,9 @@
+---
+filter: erb
+---
+<div class="ads">
+    <ul>
+        <li><a href="http://smilediet.com.tw/" title="SmileDiet"><img src="http://smilediet.com.tw/images/h1.gif" alt="SmileDiet"></a></li>
+        <li><a href="/about/#contact">刊登廣告</a></li>
+    </ul>
+</div>
