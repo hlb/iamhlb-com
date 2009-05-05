@@ -309,14 +309,13 @@ a {-webkit-transition-duration: 1s; -webkit-transition-property: color, backgrou
     color: #000;
 }
 .ads {
-    position: fixed;
+    position: absolute;
     left: 700px;
-    top: 440px;
+    top: 20px;
 }
 .ads ul {
     margin: 0;
 }
 .ads ul li {
     list-style: none;
-    font-size:
 }
