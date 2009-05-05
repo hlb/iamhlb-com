@@ -1,0 +1,23 @@
+--- 
+title:      「UI 魂」徽章入手
+slogan:     I Got the UI Spirit Button
+created_at: 2009-05-05 19:00:42.069674 +08:00
+blog_post:  true
+filter:
+  - erb
+  - maruku
+--- 
+
+昨天早上收到一封寄給小丁的快遞......
+
+[![薛小丁收到的第一封信](http://farm4.static.flickr.com/3383/3499273111_bd0ff4384c.jpg)](http://www.flickr.com/photos/hlb/3499273111/ "[薛小丁收到的第一封信")
+
+結果是 Leo 寄來的 [UI 魂](http://jiwostudio.com/archives/1299)徽章，雖然在封印狀態，還是有股殺氣：
+
+[![封印狀態](http://farm4.static.flickr.com/3364/3499273459_cc62a43967.jpg)](http://www.flickr.com/photos/hlb/3499273459/ "封印狀態")
+
+一打開來就有好強大的氣！黑色的頭髮真像怪獸的牙齒！
+
+[![好強大的氣](http://farm4.static.flickr.com/3653/3500091748_70c0f6d2b2.jpg)](http://www.flickr.com/photos/hlb/3500091748/ "好強大的氣")
+
+哇哈哈，我等著[多羅羅](http://zh.wikipedia.org/w/index.php?title=%E5%A4%9A%E7%BE%85%E7%BE%85&variant=zh-tw)來找回他的 UI 魂。
