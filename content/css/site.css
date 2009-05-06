@@ -323,3 +323,5 @@ a {-webkit-transition-duration: 1s; -webkit-transition-property: color, backgrou
 .panel .panel-overlay h2 {
     color: #fff;
 }
+
+.panel .overlay-background { height: 70px; padding: 0 1em; } /* override */
