@@ -1,0 +1,13 @@
+---
+title:      Organize-Fu
+slogan:     Organize-Fu
+created_at: 2009-05-02 19:11:59.335308 +08:00
+filter:
+  - erb
+  - maruku
+---
+
+## 延伸閱讀
+
+* [Five Steps to a Kinkless Desktop](http://kinkless.com/article/kinkless_desktop)
+* [佐藤可士和的超整理術](http://www.books.com.tw/exep/prod/booksfile.php?item=0010413571)
