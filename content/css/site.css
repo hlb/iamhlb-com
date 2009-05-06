@@ -319,3 +319,7 @@ a {-webkit-transition-duration: 1s; -webkit-transition-property: color, backgrou
 .ads ul li {
     list-style: none;
 }
+
+.panel .panel-overlay h2 {
+    color: #fff;
+}
