@@ -21,3 +21,43 @@ filter:
 [![好強大的氣](http://farm4.static.flickr.com/3653/3500091748_70c0f6d2b2.jpg)](http://www.flickr.com/photos/hlb/3500091748/ "好強大的氣")
 
 哇哈哈，我等著[多羅羅](http://zh.wikipedia.org/w/index.php?title=%E5%A4%9A%E7%BE%85%E7%BE%85&variant=zh-tw)來找回他的 UI 魂。
+
+
+<ul id="photos">
+    <li>
+        <img src="http://farm4.static.flickr.com/3383/3499273111_bd0ff4384c.jpg" width="500" height="375" alt="薛小丁收到的第一封信">
+        <div class="panel-overlay">
+            <h2>薛小丁收到的第一封信</h2>
+            <p>
+                <a href="http://www.flickr.com/photos/hlb/3499273111/" title="Flickr 上 hlb 的 薛小丁收到的第一封信">Flickr 上 hlb 的 薛小丁收到的第一封信</a>
+            </p>
+        </div>
+    </li>
+    <li>
+        <img src="http://farm4.static.flickr.com/3364/3499273459_cc62a43967.jpg" width="500" height="375" alt="封印狀態">
+        <div class="panel-overlay">
+            <h2>封印狀態</h2>
+            <p>
+                <a href="http://www.flickr.com/photos/hlb/3499273459/" title="Flickr 上 hlb 的 封印狀態">Flickr 上 hlb 的 封印狀態</a>
+            </p>
+        </div>
+    </li>
+    <li>
+        <img src="http://farm4.static.flickr.com/3653/3500091748_70c0f6d2b2.jpg" width="500" height="375" alt="好強大的氣！">
+        <div class="panel-overlay">
+            <h2>好強大的氣！</h2>
+            <p>
+                <a href="http://www.flickr.com/photos/hlb/3500091748/" title="Flickr 上 hlb 的 好強大的氣！">Flickr 上 hlb 的 好強大的氣！</a>
+            </p>
+        </div>
+    </li>
+    <li>
+        <img src="http://farm4.static.flickr.com/3365/3500092094_35c137506c.jpg" width="500" height="375" alt="近看 UI 像 VI...... VI 魂！">
+        <div class="panel-overlay">
+            <h2>近看 UI 像 VI...... VI 魂！</h2>
+            <p>
+                <a href="http://www.flickr.com/photos/hlb/3500092094/" title="Flickr 上 hlb 的 近看 UI 像 VI...... VI 魂！">Flickr 上 hlb 的 近看 UI 像 VI...... VI 魂！</a>
+            </p>
+        </div>
+    </li>
+</ul>
