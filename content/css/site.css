@@ -74,6 +74,8 @@ p.date {
 
 a {
     color: <%= @page.color['link'] %>;
+    -webkit-transition-property: color;
+    -webkit-transition-duration: 1s;
 }
 
 a:visited {
