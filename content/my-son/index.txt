@@ -1,0 +1,24 @@
+---
+title:      小丁
+slogan:     My Son
+created_at: 2009-05-22 11:11:59.643569 +08:00
+filter:
+  - erb
+  - maruku
+---
+
+Leo 說，小丁應該要有一個自己的專屬頁面。
+
+世界上所有貼著 mrding 標籤的東西啊，來集合吧！
+
+
+## Flickr
+
+<style type="text/css">
+    .flickr_badge_image { display: inline; }
+</style>
+<div id="flickr_badge_wrapper">
+    <script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?show_name=1&count=20&display=latest&size=s&layout=x&source=all_tag&tag=mrding&user=76731919%40N00"></script>
+</div>
+
+[Flickr 上更多標籤為 mrding 的相片或視訊](http://www.flickr.com/photos/tags/mrding/)
