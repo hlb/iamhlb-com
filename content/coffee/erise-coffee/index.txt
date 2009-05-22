@@ -3,15 +3,12 @@ title:      Erise Coffee
 slogan:     Erise Coffee
 created_at: 2009-05-21 21:50:52.012977 +08:00
 filter:
-  - erb
   - maruku
 ---
 
 我認為 Erise Coffee 的咖啡豆是世界第一。
 
 Erise Coffee 在清大對面。大家都稱呼 Erise 的老闆叫「老爹」，所以 Erise Coffee 也叫做老爹咖啡。
-
-<iframe width="425" height="350" src="http://maps.google.com/maps/ms?ie=UTF8&amp;hl=zh-TW&amp;t=h&amp;msa=0&amp;msid=112047812990967728649.00046a6dde5b4287857d9&amp;ll=24.796465,120.99756&amp;spn=0.003409,0.00456&amp;z=17&amp;output=embed"></iframe>
 
 在較大的地圖上查看<a href="http://maps.google.com/maps/ms?ie=UTF8&amp;hl=zh-TW&amp;t=h&amp;msa=0&amp;msid=112047812990967728649.00046a6dde5b4287857d9&amp;ll=24.796465,120.99756&amp;spn=0.003409,0.00456&amp;z=17&amp;source=embed" style="color:#0000FF;text-align:left">Erise Coffee</a>
 
@@ -34,3 +31,5 @@ Erise Coffee 在清大對面。大家都稱呼 Erise 的老闆叫「老爹」，
 從此以後就踏上不歸路了。一開始是到店裡喝，買店裡烘好的豆子。接著就得請老闆特別烘自己喜歡的口味，然後就越喝越酸......一步一步被老爹帶壞。
 
 雖然 Erise Coffee 沒有無線網路，不能在裡面工作，可是 Erise Coffee 還是我的咖啡店排行榜第一名。
+
+地址：新竹市東區光復路二段354號（[地圖](http://maps.google.com/maps/ms?ie=UTF8&hl=zh-TW&msa=0&msid=112047812990967728649.00046a6dde5b4287857d9&z=17)）
