@@ -1,0 +1,23 @@
+---
+title:      咖啡記事
+slogan:     Coffee
+created_at: 2009-05-21 21:50:52.012977 +08:00
+filter:     erb
+dirty:      true
+---
+
+<%
+articles = @pages.find(:all, :in_directory => 'coffee', :recursive => true,
+  :sort_by => "created_at", :reverse => true)
+articles.delete(@page)
+%>
+
+<h1>目前有 <%= articles.length %> 篇文章。
+
+<ul>
+<%
+articles.each do |page|
+-%>
+    <li><span class="date"><%= page.created_at.strftime('%Y/%m/%d') %></span> <%= link_to_page(page) %></li>
+<% end -%>
+</ul>
