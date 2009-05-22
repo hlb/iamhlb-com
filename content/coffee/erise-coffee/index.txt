@@ -9,8 +9,11 @@ filter:
 
 我認為 Erise Coffee 的咖啡豆是世界第一。
 
-
 Erise Coffee 在清大對面。大家都稱呼 Erise 的老闆叫「老爹」，所以 Erise Coffee 也叫做老爹咖啡。
+
+<iframe width="425" height="350" src="http://maps.google.com/maps/ms?ie=UTF8&amp;hl=zh-TW&amp;t=h&amp;msa=0&amp;msid=112047812990967728649.00046a6dde5b4287857d9&amp;ll=24.796465,120.99756&amp;spn=0.003409,0.00456&amp;z=17&amp;output=embed"></iframe>
+
+在較大的地圖上查看<a href="http://maps.google.com/maps/ms?ie=UTF8&amp;hl=zh-TW&amp;t=h&amp;msa=0&amp;msid=112047812990967728649.00046a6dde5b4287857d9&amp;ll=24.796465,120.99756&amp;spn=0.003409,0.00456&amp;z=17&amp;source=embed" style="color:#0000FF;text-align:left">Erise Coffee</a>
 
 [![老爹跟小丁](http://farm4.static.flickr.com/3654/3373757815_8fbb23c365.jpg)](http://www.flickr.com/photos/hlb/3373757815/ "老爹跟小丁")
 
