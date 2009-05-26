@@ -1,0 +1,13 @@
+---
+title:      Webkit Transition on Text Resize
+slogan:     Webkit Transition on Text Resize
+created_at: 2009-05-25 14:25:06.546811 +08:00
+---
+
+<style type="text/css">
+h1, h2, h3, h4, h5, h6, p {
+    -webkit-transition: all 0.5s linear;
+}
+</style>
+
+<p>It is quite interesting that <code>-webkit-transition</code> does work in text resize.</p>
