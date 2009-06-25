@@ -20,7 +20,7 @@ body {
     font-weight: 300;
     margin: 0;
     padding: 20px 20px 20px 40px;
-    background: #fff url(/images/body.png) repeat-x;
+    background: #fff;
 }
 
 #doc {
@@ -195,47 +195,10 @@ hr {
     visibility: hidden;
 }
 
-.calendar {
-    background-image: url(/images/calendar.png);
-    background-repeat: no-repeat;
-    background-position: left top;
-    width: 100px;
-    height: 98px;
-    line-height: 1;
-    font-family: Aller, Tahoma, Verdana, sans-serif;
-    font-weight: bold;
-    float: right;
-    margin-right: -110px;
-}
-
-.calendar .split {
-    display: none;
-}
-
-.calendar .month {
-    display: block;
-    text-align: center;
-    text-transform: uppercase;
-    padding-top: 8px;
-    font-size: 19px;
-    line-height: 23px;
-    height: 23px;
-    color: #f1f1f1;
-}
-
-.calendar .day {
-    display: block;
-    text-align: center;
-    font-size: 42px;
-    line-height: 45px;
-    height: 45px;
-    color: #000;
-}
-
 .ads {
     position: fixed;
-    left: 840px;
-    top: 300px;
+    left: 800px;
+    top: 220px;
 }
 
 .ads ul {
