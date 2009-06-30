@@ -14,6 +14,12 @@ filter:
 
 <toc toc_style="ul" numbering="off" toc_range="h2-h2" />
 
+## Rails Frontend Tips You Should Know (Ruby Tuesday), 2009/6/30
+
+Ruby Tuesday 六月場的 Lightning Talk 心得分享。
+
+* [投影片](http://www.slideshare.net/hlb/rails-frontend-tips-you-should-know)
+
 ## "User Interface in the Jungle" Series
 
 這是自己 2009 年的新課題。
@@ -22,11 +28,8 @@ filter:
 
 承蒙高來高去上官大俠的邀請，有幸到Xuite Friday講UI Gathering題目的加長版。
 
-<object style="margin:0px" width="425" height="355"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=user-interface-desing-in-the-jungle-xuite-090315053017-phpapp02&stripped_title=user-interface-in-the-jungle-xuite" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=user-interface-desing-in-the-jungle-xuite-090315053017-phpapp02&stripped_title=user-interface-in-the-jungle-xuite" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="355"></embed></object>
-
 * [投影片](http://www.slideshare.net/hlb/user-interface-in-the-jungle-xuite)
 * [心得](http://hlb.yichi.org/blog/2009/03/15/340)
-* [投影片 slideshare]()
 
 ### UI Gathering, 2009/3/7
 
