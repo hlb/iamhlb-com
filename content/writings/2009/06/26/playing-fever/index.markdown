@@ -34,3 +34,9 @@ Fever 的快速鍵很直覺，所以上手很快。用 Safari 跟 Firefox 操作
 [![Chinese Rendering Bug in Fever](http://farm4.static.flickr.com/3404/3658640931_e87480f17d.jpg)](http://www.flickr.com/photos/hlb/3658640931/ "Chinese Rendering Bug in Fever")
 
 用過幾天再來更新這一篇好了。
+
+### 6/26 更新
+
+踩到地雷了，有些 A feed 的文章跑到 B feed 去，理由不明。
+
+[![Feed Bug in Fever](http://farm3.static.flickr.com/2479/3660896870_bc88d37416.jpg)](http://www.flickr.com/photos/hlb/3660896870/ "Feed Bug in Fever")
