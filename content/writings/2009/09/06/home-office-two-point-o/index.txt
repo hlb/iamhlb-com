@@ -1,0 +1,49 @@
+--- 
+title:      "Home Office 2.0"
+slogan:     "Home Office 2.0"
+created_at: 2009-09-06 12:45:51.492900 +08:00
+blog_post:  true
+filter:
+  - erb
+  - maruku
+--- 
+
+這個週末跟太太重新規劃了居家空間。
+
+我家平日就是太太、小丁、我三個人住。除了吃飯時間之外，室內主要的活動空間（主人房、工作區、休閒區）其實都在二樓。而且因為空間設計的關係，工作區與休閒區其實都在一起。（而且全家哪裡都是小丁的玩樂區......）
+
+這是我原本在二樓的工作區，跟太太是共用的：
+
+<a href="http://www.flickr.com/photos/hlb/3521519306/" title="Flickr 上 hlb 的 新設定"><img src="http://farm4.static.flickr.com/3350/3521519306_a1a23e7b0c.jpg" width="500" height="375" alt="新設定" /></a>
+
+小丁漸漸長大了，我們覺得應該要給小丁更充裕的室內空間，也覺得要提早規劃一下小孩房。我們都不想把小孩房設在三樓，這樣太累了。所以就決定把一樓客廳劃一塊空間出來作工作區，然後把原本二樓的工作/休息區改成小孩房。
+
+忙碌了一天，終於完工啦。因為靠山邊，所以一樓晚上超級涼快的......昨晚工作心情十分好 :D
+
+<a href="http://www.flickr.com/photos/hlb/3891946036/" title="Flickr 上 hlb 的 new home office in 1F (night)"><img src="http://farm3.static.flickr.com/2423/3891946036_6d51fc5d5d.jpg" width="500" height="375" alt="new home office in 1F (night)" /></a>
+
+白天採光也比想像的還要好。
+
+<a href="http://www.flickr.com/photos/hlb/3891160313/" title="Flickr 上 hlb 的 new home office in 1F (day)"><img src="http://farm3.static.flickr.com/2608/3891160313_9a9428a6bd.jpg" width="500" height="375" alt="new home office in 1F (day)" /></a>
+
+一定要喝啤酒工作的啦！
+
+<a href="http://www.flickr.com/photos/hlb/3891952198/" title="Flickr 上 hlb 的 new home office in 1F (day)"><img src="http://farm4.static.flickr.com/3434/3891952198_9cebaacc5e.jpg" width="500" height="375" alt="new home office in 1F (day)" /></a>
+
+太太把一樓整理的好整齊：
+
+<a href="http://www.flickr.com/photos/hlb/3892019340/" title="Flickr 上 hlb 的 咦，難得這麼整齊"><img src="http://farm4.static.flickr.com/3435/3892019340_747c53db92.jpg" width="500" height="375" alt="咦，難得這麼整齊" /></a>
+
+<a href="http://www.flickr.com/photos/hlb/3891229429/" title="Flickr 上 hlb 的 滿滿的玩具、書跟漫畫......"><img src="http://farm3.static.flickr.com/2422/3891229429_c236f97bc7.jpg" width="500" height="375" alt="滿滿的玩具、書跟漫畫......" /></a>
+
+Mac Mini 也搬到一樓之後，終於不用接 MBP 看電影了......
+
+<a href="http://www.flickr.com/photos/hlb/3891166829/" title="Flickr 上 hlb 的 projector + amplifier"><img src="http://farm3.static.flickr.com/2460/3891166829_5772536b1d.jpg" width="500" height="375" alt="projector + amplifier" /></a>
+
+窗外光線好～
+
+<a href="http://www.flickr.com/photos/hlb/3891954062/" title="Flickr 上 hlb 的 window"><img src="http://farm4.static.flickr.com/3523/3891954062_c7537e6916.jpg" width="500" height="375" alt="window" /></a>
+
+貓咪也開心～
+
+<a href="http://www.flickr.com/photos/hlb/3892020208/" title="Flickr 上 hlb 的 模擬坐著很舒服的樣子"><img src="http://farm3.static.flickr.com/2560/3892020208_7a9c3c3715.jpg" width="500" height="375" alt="模擬坐著很舒服的樣子" /></a>
