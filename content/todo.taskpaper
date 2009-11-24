@@ -1,16 +1,5 @@
-iamhlb.com:
-- /about 要放上 hcard & vcard 下載
-- 文章頁面放「上一篇」、「下一篇」的連結 @done(2009-04-11)
-- /links style
-- /talks style @done(2009-04-20)
-	- 要加上「如果要找我演講，如何聯絡」 @done(2009-04-13)
-- 設定 awstats @low
-- 英文版 @low
-- Flickr 照片
-- vimeo 影片 @done(2009-04-20)
-
-
 要寫的:
 - cufon 中文 howto
 - CSS Book
 	- 《堅持網頁標準道路將設計進行到底 》（某人說，當然要紅書皮、黃宋體。）
+- how to redesign web sites - series
