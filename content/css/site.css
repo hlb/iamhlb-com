@@ -207,7 +207,10 @@ hr {
 
 .ads ul li {
     list-style: none;
-    font-size: 85%;
+}
+.ads p {
+    font-size: 10px;
+    margin: 5px 0;
 }
 
 .panel .panel-overlay h2 {
