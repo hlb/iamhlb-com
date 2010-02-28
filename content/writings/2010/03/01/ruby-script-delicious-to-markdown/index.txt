@@ -1,0 +1,48 @@
+--- 
+title:      "Ruby Script: Delicious to Markdown"
+slogan:     "Ruby Script: Delicious to Markdown"
+created_at: 2010-03-01 00:53:59.525700 +08:00
+blog_post:  true
+filter:
+  - erb
+  - maruku
+--- 
+
+因為 tumblr 既有 iPhone app，又有[備份程式](http://staff.tumblr.com/post/286303145/tumblr-backup-mac-beta)，所以最近就開始在上面[寫點小記錄](http://note.iamhlb.com/)。
+
+目前打算每週整理一下 delicious 書籤，順手寫篇心得，這樣以後要找資料的時候比較容易些。不過每次要去 delicious.com 翻找、剪下貼上也太笨了，所以就順手寫了個 ruby script 來幫我抓回前一週的書籤，順便排成 markdown 格式。這樣只要書籤的描述有認真寫，大概就可以直接貼上 tumblr 變成一篇文章了。
+
+<% uv :lang => "ruby" do -%>
+require 'net/https'
+require "rexml/document"
+
+username = "user" # your del.icio.us username
+password = "password" # your del.icio.us password
+
+resp = href = "";
+begin      
+  http = Net::HTTP.new("api.del.icio.us", 443)
+  http.use_ssl = true
+  fromdt = (Time.now - 86400*7).strftime("%Y-%m-%d00:00:00Z")
+  http.start do |http|
+    req = Net::HTTP::Get.new("/v1/posts/all?fromdt=" + fromdt, {"User-Agent" => 
+        "juretta.com RubyLicious 0.2"})
+    req.basic_auth(username, password)
+    response = http.request(req)
+    resp = response.body
+  end     
+  #  XML Document
+  doc = REXML::Document.new(resp)    
+  doc.root.elements.each do |elem|
+    print "[" + elem.attributes['description'] + "](" + elem.attributes['href'] + ")\n\n"
+    print elem.attributes['extended'] + "\n\n"
+  end
+  
+rescue SocketError
+  raise "Host " + host + " nicht erreichbar"
+rescue REXML::ParseException => e
+  print "error parsing XML " + e.to_s
+end
+<% end %>
+
+[gist here](http://gist.github.com/317670).
