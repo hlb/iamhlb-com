@@ -3,9 +3,7 @@ filter: erb
 ---
 <div class="ads">
     <ul>
-        <li><a href="http://smilediet.com.tw/" title="SmileDiet"><img src="http://smilediet.com.tw/images/h1.gif" alt="SmileDiet"></a></li>
         <li><a href="http://www.ascenderfonts.com/"><img src="http://www.ascenderfonts.com/af/images/ui/logo.gif" alt="AscenderFonts.com"></a></li>
-        <li><a href="http://www.awoo.com.tw/">awoo SEO 搜尋引擎最佳化</a></li>
     </ul>
     <p><a href="/about/#contact">在本站刊登廣告</a></p>
 </div>
