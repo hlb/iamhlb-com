@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Just put "Taiwan" in country_select, please - 陳年舊事</title>
+        <link rel="stylesheet" href="/style.css">
+    </head>
+<body>
+    <div id="main">
+        <h1><a href="/">陳年舊事</a></h1>
+        <p>UPDATE: <a href="http://www.koziarski.net/archives/2008/9/24/countries-and-controversies">good news</a> from Koz. See comments in this post for details. ihower++.</p>
+
+<p>I enjoy Rails and think it is a really promising framework, but the Rails core team really <a href="http://github.com/rails/rails/commit/3353b85b0eae76bf36ae7c2f7b6adc1863278a8e">make me sad</a> about the <code>country_select</code> recently.</p>
+
+<p>I do not want to take this issue personally, but I agree <a href="http://yllan.org/blog/archives/296">every word yllan said in his blog post</a> totally. Let’s face it, you can not solve a problem by putting it into another box. The problem is still there, and “good default” is the only rescue. I think “<a href="http://gettingreal.37signals.com/ch06_Avoid_Preferences.php">Avoid Preferences</a>” is also true in the open source development.</p>
+
+<p>How other open source projects take this issue:</p>
+
+<ul>
+  <li>FreeBSD:
+    <ul>
+      <li><a href="http://www.freebsd.org/cgi/query-pr.cgi?pr=68495">i386/68226: Taiwan is not a country.</a> </li>
+      <li><a href="http://www.freebsd.org/cgi/query-pr.cgi?pr=68495">misc/68495: Taiwan is not a country.</a></li>
+      <li><a href="http://www.freebsd.org/cgi/query-pr.cgi?pr=68729">misc/68729: Taiwan is not a country!</a></li>
+    </ul>
+  </li>
+  <li><a href="http://lists.debian.org/debian-boot/2004/05/threads.html#00011">Debian</a></li>
+</ul>
+
+<p>It is good when there is a “standard” we can follow, but sometimes the standard might be wrong or unsuitable, so we should fix or adapt it if we can.</p>
+
+<p><a href="http://github.com/eltiare">eltiare</a> said in the comment of this sad commit:</p>
+
+<blockquote>
+  <p>Respecting everything that others want is quite an impractical order on a global scale. If you try to make everyone happy, someone is not going to like it. Since the list is scraped from another source, one cannot individually maintain country names without it turning into a nightmare to maintain. It’s not political, it’s practical.</p>
+</blockquote>
+
+<p>Yes, we know it is very hard to get respect from others, but we just can not stop trying. I also have to say, it is not practical at all to just give user a bad default which does not work well.</p>
+
+<p>Dear Rails programmers, if you would like to give some respects to us kindly, you may use <a href="http://github.com/ihower/country_and_region_select/tree/master">our version</a> instead. Many thanks.</p>
+
+    </div>
+</body>
+</html>

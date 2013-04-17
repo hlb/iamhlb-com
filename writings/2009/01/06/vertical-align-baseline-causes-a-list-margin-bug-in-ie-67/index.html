@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>vertical-align: baseline causes a list margin bug in IE 6/7 - 陳年舊事</title>
+        <link rel="stylesheet" href="/style.css">
+    </head>
+<body>
+    <div id="main">
+        <h1><a href="/">陳年舊事</a></h1>
+        <p>If you use <a href="http://meyerweb.com/eric/tools/css/reset/">Eric Meyer’s version of Reset CSS</a>, be careful of the side effect of “vertical-align: baseline” in IE.</p>
+
+<p>In reset.css:</p>
+
+<pre><code>html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    ...
+    vertical-align: baseline;
+    ...
+}
+</code></pre>
+
+<p>It can cause some IE bugs in list items (and table cells, but not mentioned in this post).</p>
+
+<p>A list item with background color and <code>border-bottom: 1px solid #fff</code> should looks like this:</p>
+
+<p><img src="http://hlb.yichi.org/blog/wp-content/files/2009/01/list-solved.png" width="124" height="56" class="alignnone size-medium wp-image-324" /></p>
+
+<p>But if you use reset.css, it might look like this:</p>
+
+<p><img src="http://hlb.yichi.org/blog/wp-content/files/2009/01/list-buggy.png" width="124" height="56" class="alignnone size-medium wp-image-323" /></p>
+
+<p>It costs me 2 hours to figure out what the bug is, and how to solve it. So here is the easy fix:</p>
+
+<pre><code>#blah li {
+    vertical-align: bottom;
+}
+</code></pre>
+
+<p>Hope I will not need to google it one day.</p>
+
+    </div>
+</body>
+</html>
